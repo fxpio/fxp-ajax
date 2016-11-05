@@ -5,7 +5,7 @@ Sonatra Ajax Library
 [![Build Status](https://img.shields.io/travis/sonatra/sonatra-ajax/master.svg)](https://travis-ci.org/sonatra/sonatra-ajax)
 [![Coverage Status](https://img.shields.io/coveralls/sonatra/sonatra-ajax/master.svg)](https://coveralls.io/r/sonatra/sonatra-ajax?branch=master)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/sonatra/sonatra-ajax/master.svg)](https://scrutinizer-ci.com/g/sonatra/sonatra-ajax?branch=master)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/199a01f9-dd83-4f81-b1d2-c1d4fb00868a.svg)](https://insight.sensiolabs.com/projects/199a01f9-dd83-4f81-b1d2-c1d4fb00868a)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/323954c4-eb70-444a-8b16-ec8f4f7ea261.svg)](https://insight.sensiolabs.com/projects/323954c4-eb70-444a-8b16-ec8f4f7ea261)
 
 The Sonatra Ajax allow to intercept the ajax request identified by the event dispatcher.
 It allows, for example, for view controller to indicating to the event dispatcher, the answer 
