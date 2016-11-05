@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Sonatra\Bundle\AjaxBundle\Tests\Event;
+namespace Sonatra\Component\Ajax\Tests\Event;
 
-use Sonatra\Bundle\AjaxBundle\Event\GetAjaxEvent;
+use Sonatra\Component\Ajax\Event\GetAjaxEvent;
 
 /**
  * Tests case for ajax event.
@@ -36,7 +36,7 @@ class GetAjaxEventTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \Sonatra\Bundle\AjaxBundle\Exception\InvalidArgumentException
+     * @expectedException \Sonatra\Component\Ajax\Exception\InvalidArgumentException
      */
     public function testInvalidFormat()
     {

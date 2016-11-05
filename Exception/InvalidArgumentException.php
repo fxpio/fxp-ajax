@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Sonatra\Bundle\AjaxBundle\Exception;
+namespace Sonatra\Component\Ajax\Exception;
 
 /**
  * Base InvalidArgumentException for the Ajax component.

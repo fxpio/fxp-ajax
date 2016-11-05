@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Sonatra\Bundle\AjaxBundle;
+namespace Sonatra\Component\Ajax;
 
 /**
  * Contains all events thrown in the Ajax Bundle.

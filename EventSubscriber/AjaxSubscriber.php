@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Sonatra\Bundle\AjaxBundle\EventSubscriber;
+namespace Sonatra\Component\Ajax\EventSubscriber;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
 use Symfony\Component\HttpFoundation\Response;
-use Sonatra\Bundle\AjaxBundle\AjaxEvents;
-use Sonatra\Bundle\AjaxBundle\Event\GetAjaxEvent;
+use Sonatra\Component\Ajax\AjaxEvents;
+use Sonatra\Component\Ajax\Event\GetAjaxEvent;
 
 /**
  * Ajax event subscriber.

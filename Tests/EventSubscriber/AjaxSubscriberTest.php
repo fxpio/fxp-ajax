@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Sonatra\Bundle\AjaxBundle\Tests\Event;
+namespace Sonatra\Component\Ajax\Tests\Event;
 
-use Sonatra\Bundle\AjaxBundle\AjaxEvents;
-use Sonatra\Bundle\AjaxBundle\Event\GetAjaxEvent;
-use Sonatra\Bundle\AjaxBundle\EventSubscriber\AjaxSubscriber;
+use Sonatra\Component\Ajax\AjaxEvents;
+use Sonatra\Component\Ajax\Event\GetAjaxEvent;
+use Sonatra\Component\Ajax\EventSubscriber\AjaxSubscriber;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

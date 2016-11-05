@@ -1,9 +1,9 @@
 {
-    "name": "sonatra/ajax-bundle",
-    "type": "symfony-bundle",
+    "name": "sonatra/ajax",
+    "type": "library",
     "description": "Intercept the ajax request identified by the event dispatcher",
     "keywords": ["AJAX response"],
-    "homepage": "https://github.com/sonatra/SonatraAjaxBundle",
+    "homepage": "https://github.com/sonatra/sonatra-ajax",
     "license": "MIT",
     "authors": [
         {
@@ -13,11 +13,13 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "symfony/framework-bundle": "~3.0",
+        "symfony/http-foundation": "~3.0",
+        "symfony/http-kernel": "~3.0",
+        "symfony/event-dispatcher": "~3.0",
         "symfony/serializer": "~3.0"
     },
     "autoload": {
-        "psr-4": { "Sonatra\\Bundle\\AjaxBundle\\": "" },
+        "psr-4": { "Sonatra\\Component\\Ajax\\": "" },
         "exclude-from-classmap": [
             "/Tests/"
         ]
