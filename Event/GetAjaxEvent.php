@@ -11,9 +11,9 @@
 
 namespace Sonatra\Component\Ajax\Event;
 
+use Sonatra\Component\Ajax\Exception\InvalidArgumentException;
 use Symfony\Component\EventDispatcher\Event;
 use Symfony\Component\HttpFoundation\Response;
-use Sonatra\Component\Ajax\Exception\InvalidArgumentException;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use Symfony\Component\Serializer\Encoder\XmlEncoder;
 use Symfony\Component\Serializer\Normalizer\GetSetMethodNormalizer;
