@@ -11,6 +11,7 @@
 
 namespace Sonatra\Component\Ajax\Tests\Event;
 
+use PHPUnit\Framework\TestCase;
 use Sonatra\Component\Ajax\AjaxEvents;
 use Sonatra\Component\Ajax\Event\GetAjaxEvent;
 use Sonatra\Component\Ajax\EventSubscriber\AjaxSubscriber;
@@ -26,7 +27,7 @@ use Symfony\Component\HttpKernel\KernelEvents;
  *
  * @author François Pluchino <francois.pluchino@sonatra.com>
  */
-class AjaxSubscriberTest extends \PHPUnit_Framework_TestCase
+class AjaxSubscriberTest extends TestCase
 {
     /**
      * @var EventDispatcher

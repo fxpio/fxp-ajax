@@ -11,6 +11,7 @@
 
 namespace Sonatra\Component\Ajax\Tests\Event;
 
+use PHPUnit\Framework\TestCase;
 use Sonatra\Component\Ajax\Event\GetAjaxEvent;
 
 /**
@@ -18,7 +19,7 @@ use Sonatra\Component\Ajax\Event\GetAjaxEvent;
  *
  * @author François Pluchino <francois.pluchino@sonatra.com>
  */
-class GetAjaxEventTest extends \PHPUnit_Framework_TestCase
+class GetAjaxEventTest extends TestCase
 {
     public function testDefaultConstructor()
     {
