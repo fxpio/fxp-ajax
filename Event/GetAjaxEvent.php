@@ -1,17 +1,17 @@
 <?php
 
 /*
- * This file is part of the Sonatra package.
+ * This file is part of the Fxp package.
  *
- * (c) François Pluchino <francois.pluchino@sonatra.com>
+ * (c) François Pluchino <francois.pluchino@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Sonatra\Component\Ajax\Event;
+namespace Fxp\Component\Ajax\Event;
 
-use Sonatra\Component\Ajax\Exception\InvalidArgumentException;
+use Fxp\Component\Ajax\Exception\InvalidArgumentException;
 use Symfony\Component\EventDispatcher\Event;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
@@ -22,7 +22,7 @@ use Symfony\Component\Serializer\Serializer;
 /**
  * Ajax Event dispatched.
  *
- * @author François Pluchino <francois.pluchino@sonatra.com>
+ * @author François Pluchino <francois.pluchino@gmail.com>
  */
 class GetAjaxEvent extends Event
 {

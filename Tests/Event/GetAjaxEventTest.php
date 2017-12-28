@@ -1,23 +1,23 @@
 <?php
 
 /*
- * This file is part of the Sonatra package.
+ * This file is part of the Fxp package.
  *
- * (c) François Pluchino <francois.pluchino@sonatra.com>
+ * (c) François Pluchino <francois.pluchino@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Sonatra\Component\Ajax\Tests\Event;
+namespace Fxp\Component\Ajax\Tests\Event;
 
+use Fxp\Component\Ajax\Event\GetAjaxEvent;
 use PHPUnit\Framework\TestCase;
-use Sonatra\Component\Ajax\Event\GetAjaxEvent;
 
 /**
  * Tests case for ajax event.
  *
- * @author François Pluchino <francois.pluchino@sonatra.com>
+ * @author François Pluchino <francois.pluchino@gmail.com>
  */
 class GetAjaxEventTest extends TestCase
 {
@@ -37,7 +37,7 @@ class GetAjaxEventTest extends TestCase
     }
 
     /**
-     * @expectedException \Sonatra\Component\Ajax\Exception\InvalidArgumentException
+     * @expectedException \Fxp\Component\Ajax\Exception\InvalidArgumentException
      */
     public function testInvalidFormat()
     {

@@ -1,20 +1,20 @@
 <?php
 
 /*
- * This file is part of the Sonatra package.
+ * This file is part of the Fxp package.
  *
- * (c) François Pluchino <francois.pluchino@sonatra.com>
+ * (c) François Pluchino <francois.pluchino@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Sonatra\Component\Ajax\Tests\Event;
+namespace Fxp\Component\Ajax\Tests\Event;
 
+use Fxp\Component\Ajax\AjaxEvents;
+use Fxp\Component\Ajax\Event\GetAjaxEvent;
+use Fxp\Component\Ajax\EventSubscriber\AjaxSubscriber;
 use PHPUnit\Framework\TestCase;
-use Sonatra\Component\Ajax\AjaxEvents;
-use Sonatra\Component\Ajax\Event\GetAjaxEvent;
-use Sonatra\Component\Ajax\EventSubscriber\AjaxSubscriber;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -25,7 +25,7 @@ use Symfony\Component\HttpKernel\KernelEvents;
 /**
  * Tests case for ajax subscriber.
  *
- * @author François Pluchino <francois.pluchino@sonatra.com>
+ * @author François Pluchino <francois.pluchino@gmail.com>
  */
 class AjaxSubscriberTest extends TestCase
 {

@@ -1,20 +1,20 @@
 <?php
 
 /*
- * This file is part of the Sonatra package.
+ * This file is part of the Fxp package.
  *
- * (c) François Pluchino <francois.pluchino@sonatra.com>
+ * (c) François Pluchino <francois.pluchino@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Sonatra\Component\Ajax;
+namespace Fxp\Component\Ajax;
 
 /**
  * Contains all events thrown in the Ajax Bundle.
  *
- * @author François Pluchino <francois.pluchino@sonatra.com>
+ * @author François Pluchino <francois.pluchino@gmail.com>
  */
 final class AjaxEvents
 {
@@ -23,5 +23,5 @@ final class AjaxEvents
      *
      * @var string
      */
-    const INJECTION = 'sonatra_ajax.injection';
+    const INJECTION = 'fxp_ajax.injection';
 }

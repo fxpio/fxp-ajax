@@ -1,14 +1,14 @@
 {
-    "name": "sonatra/ajax",
+    "name": "fxp/ajax",
     "type": "library",
     "description": "Intercept the ajax request identified by the event dispatcher",
     "keywords": ["AJAX response"],
-    "homepage": "https://github.com/sonatra/sonatra-ajax",
+    "homepage": "https://github.com/fxpio/fxp-ajax",
     "license": "MIT",
     "authors": [
         {
             "name": "François Pluchino",
-            "email": "francois.pluchino@sonatra.com"
+            "email": "francois.pluchino@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -21,7 +21,7 @@
         "symfony/serializer": "^3.4.0|^4.0.0"
     },
     "autoload": {
-        "psr-4": { "Sonatra\\Component\\Ajax\\": "" },
+        "psr-4": { "Fxp\\Component\\Ajax\\": "" },
         "exclude-from-classmap": [
             "/Tests/"
         ]
