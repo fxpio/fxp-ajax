@@ -124,7 +124,7 @@ class AjaxSubscriberTest extends TestCase
     public function testXmlHttpRequestWithAjaxIdAndAjaxEvent()
     {
         $ajaxEvent = new GetAjaxEvent('42', 'json');
-        $ajaxEvent->setData(array('number' => '42'));
+        $ajaxEvent->setData(['number' => '42']);
         $this->dispatcher->dispatch(AjaxEvents::INJECTION, $ajaxEvent);
 
         /* @var HttpKernelInterface $kernel */

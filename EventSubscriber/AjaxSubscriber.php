@@ -28,7 +28,7 @@ class AjaxSubscriber implements EventSubscriberInterface
     /**
      * @var GetAjaxEvent[]
      */
-    private $ajaxEvents = array();
+    private $ajaxEvents = [];
 
     /**
      * @var string
@@ -50,10 +50,10 @@ class AjaxSubscriber implements EventSubscriberInterface
      */
     public static function getSubscribedEvents()
     {
-        return array(
-                AjaxEvents::INJECTION => array('onAjaxInjection', 0),
-                KernelEvents::RESPONSE => array('onKernelResponse', 0),
-        );
+        return [
+                AjaxEvents::INJECTION => ['onAjaxInjection', 0],
+                KernelEvents::RESPONSE => ['onKernelResponse', 0],
+        ];
     }
 
     /**

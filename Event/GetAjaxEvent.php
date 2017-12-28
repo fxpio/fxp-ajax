@@ -44,7 +44,7 @@ class GetAjaxEvent extends Event
     /**
      * @var array
      */
-    protected $formats = array('xml', 'json');
+    protected $formats = ['xml', 'json'];
 
     /**
      * Constructor.
@@ -150,8 +150,8 @@ class GetAjaxEvent extends Event
             $data = $data();
         }
 
-        $encoders = array(new XmlEncoder(), new JsonEncoder());
-        $normalizers = array(new GetSetMethodNormalizer());
+        $encoders = [new XmlEncoder(), new JsonEncoder()];
+        $normalizers = [new GetSetMethodNormalizer()];
         $serializer = new Serializer($normalizers, $encoders);
 
         $response = new Response();

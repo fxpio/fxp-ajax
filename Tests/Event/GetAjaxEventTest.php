@@ -60,7 +60,7 @@ class GetAjaxEventTest extends TestCase
     public function testGenerateClosureDataResponse()
     {
         $data = function () {
-            return array('number' => '42');
+            return ['number' => '42'];
         };
 
         $event = new GetAjaxEvent('foobar', 'json');
@@ -74,7 +74,7 @@ class GetAjaxEventTest extends TestCase
     public function testGenerateJsonResponse()
     {
         $event = new GetAjaxEvent('foobar', 'json');
-        $event->setData(array('number' => '42'));
+        $event->setData(['number' => '42']);
         $response = $event->generateResponse();
 
         $this->assertInstanceOf('Symfony\Component\HttpFoundation\Response', $response);
@@ -85,7 +85,7 @@ class GetAjaxEventTest extends TestCase
     public function testGenerateXmlResponse()
     {
         $event = new GetAjaxEvent('foobar', 'xml');
-        $event->setData(array('number' => '42'));
+        $event->setData(['number' => '42']);
         $response = $event->generateResponse();
 
         $this->assertInstanceOf('Symfony\Component\HttpFoundation\Response', $response);
